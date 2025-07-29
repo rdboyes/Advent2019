@@ -1,7 +1,7 @@
 name = "Advent2019"
 uuid = "92c28108-5d60-4230-9582-c610657999b9"
 authors = ["Randall Boyes <33524191+rdboyes@users.noreply.github.com> and contributors"]
-version = "1.0.0-DEV"
+version = "0.1.0"
 
 [compat]
 julia = "1.11"
