@@ -1,5 +1,7 @@
 module Advent2019
+    
+    include("day1.jl")
 
-# Write your package code here.
+    export day1_1, read_day1
 
 end
