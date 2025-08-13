@@ -24,4 +24,4 @@ check.(264793:803935; condition=double_not_triple) |> sum |> print
 # single line versions
 solo_zero(x) = any([x[i] == 0 && (i == 1 || x[i-1] != 0) && (i == 5 || x[i+1] != 0) for i in 1:5])
 (n -> n |> digits |> diff |> (x -> !any(x .> 0) && !all(x .!= 0))).(264793:803935) |> sum
-(n -> n |> digits |> diff |> (x -> !any(x .> 0) && !all(x .!= 0) && solo_zero(x))).(264793:803935) |> sum
+(n -> n |> digits |> diff |> (x -> !any(x .> 0) && solo_zero(x))).(264793:803935) |> sum
